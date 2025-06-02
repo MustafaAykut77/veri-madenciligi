@@ -35,11 +35,13 @@ Projede **IoT-DH veri seti** kullanılmıştır. Bu veri seti aşağıdaki özel
 
 ### Projeyi Çalıştırma
 
-1. Kaynak dosyalarını indirin ve projenin çalışacağı dizine yerleştirin
+1. Projenin kaynak dosyalarını indirin ve projenin çalışacağı dizine yerleştirin
 
-2. Veri setini indirin ve proje dizinine yerleştirin
+2. Veri setini kaynakça kısmındaki linkten "Download All 695 MB" tuşuna basark indirin ve zipten çıkarıp proje dizinine yerleştirin
 
-3. Modeli eğitin ve test edin:
+3. Veri setinin yolu ./IoT-DH Dataset/Dataset/dataset.csv olmalıdır
+
+4. Modeli eğitin ve test edin:
 ```bash
 python train_and_test_model.py
 ```
