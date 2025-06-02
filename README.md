@@ -37,7 +37,7 @@ Projede **IoT-DH veri seti** kullanılmıştır. Bu veri seti aşağıdaki özel
 
 1. Projenin kaynak dosyalarını indirin ve projenin çalışacağı dizine yerleştirin
 
-2. Veri setini kaynakça kısmındaki linkten "Download All 695 MB" tuşuna basark indirin ve zipten çıkarıp proje dizinine yerleştirin
+2. Veri setini kaynakça kısmındaki linkten "Download All 695 MB" tuşuna tıklayarak indirin ve zipten çıkarıp proje dizinine yerleştirin
 
 3. Veri setinin yolu ./IoT-DH Dataset/Dataset/IoT-DH Dataset.csv olmalıdır
 
