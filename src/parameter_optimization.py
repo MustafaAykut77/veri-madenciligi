@@ -17,7 +17,7 @@ def load_data():
     """
     try:
         # Performans için veri setinin sadece %10'unu rastgele olarak al
-        df = pd.read_csv("./IoT-DH Dataset/Dataset/dataset.csv")
+        df = pd.read_csv("./IoT-DH Dataset/Dataset/IoT-DH Dataset.csv")
         df = df.sample(frac=0.1, random_state=42)
 
         # Model performansına katkı sağlamayan sütunları kaldır
