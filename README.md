@@ -33,19 +33,9 @@ Projede **IoT-DH veri seti** kullanılmıştır. Bu veri seti aşağıdaki özel
 
 ## 🚀 Kurulum
 
-### Gereksinimler
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
 ### Projeyi Çalıştırma
 
-1. Repoyu klonlayın:
-```bash
-git clone [repo-url]
-cd iot-ddos-detection
-```
+1. Kaynak dosyalarını indirin ve projenin çalışacağı dizine yerleştirin
 
 2. Veri setini indirin ve proje dizinine yerleştirin
 
