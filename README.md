@@ -97,7 +97,7 @@ Proje aşağıdaki görselleştirmeleri içermektedir:
 
 ## 📚 Kaynaklar
 
-- [IoT-DH Veri Seti (Mendeley)](https://data.mendeley.com/)
+- [IoT-DH Veri Seti (Mendeley)](https://data.mendeley.com/datasets/8dns3xbckv/1)
 - [Scikit-learn Random Forest Dokumentasyonu](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 - [Random Forest Hiperparametreleri](https://www.geeksforgeeks.org/hyperparameters-of-random-forest-classifier/)
 
