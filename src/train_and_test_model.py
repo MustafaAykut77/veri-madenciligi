@@ -29,7 +29,7 @@ def main():
         os.makedirs("Sonuçlar", exist_ok=True)
 
         # Veri setinin rastgele %10'luk kısmını al (performans için)
-        df = pd.read_csv("./IoT-DH Dataset/Dataset/dataset.csv").sample(frac=0.1, random_state=19)
+        df = pd.read_csv("./IoT-DH Dataset/Dataset/IoT-DH Dataset.csv").sample(frac=0.1, random_state=19)
         
         # Model başarısına katkı sağlamayacak kaynak, hedef ve protokol sütunlarını sil
         df = df.drop(columns=["src", "dst", "Protocol"]).dropna()
