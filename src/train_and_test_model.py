@@ -123,11 +123,11 @@ def create_plots(y_test, y_pred, y_prob, target_names, rf, X, y_encoded):
         y_encoded: Kodlanmış hedef değişken
     """
 
-    # 1. Karışıklık matrisi - modelin hangi sınıfları karıştırdığını gösterir
+    # 1. Karmaşıklık matrisi - modelin hangi sınıfları karıştırdığını gösterir
     plt.figure(figsize=(6, 5))
     sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d', cmap='Blues',
                 xticklabels=target_names, yticklabels=target_names)
-    plt.title("Karışıklık Matrisi")
+    plt.title("Karmaşıklık Matrisi")
     plt.xlabel("Tahmin")
     plt.ylabel("Gerçek")
     plt.tight_layout()
